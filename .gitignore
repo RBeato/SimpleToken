@@ -20,6 +20,9 @@
 # is commented out by default.
 #.vscode/
 
+
+*.env
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -31,9 +34,6 @@
 .pub/
 /build/
 
-# Local env variables
-.env
-
 # Web related
 lib/generated_plugin_registrant.dart
 
@@ -42,19 +42,3 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
-
-# Logs
-logs
-*.log
-
-
-# Dependency directory
-node_modules
-
-# Generated files
-config/development/contracts.json
-config/development/*.sol.js
-config/test/contracts.json
-build
-dist
-
